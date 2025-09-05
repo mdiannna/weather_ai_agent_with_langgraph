@@ -30,6 +30,10 @@ pip install -r requirements.txt
 
 # 4. Run the FastAPI server
 uvicorn app:app --reload
+
+OR
+
+fastapi dev main.py
 ```
 
 The server will be available at http://localhost:8000
